@@ -119,8 +119,9 @@ static void print_license() {
 	;
 }
 
-int main(int argc, char * argv[]) {
-	
+//int main(int argc, char * argv[]) {
+int cli_main(int argc, char * argv[]) {
+
 	po::options_description generic("Generic options");
 	generic.add_options()
 		("help,h", "Show supported options")

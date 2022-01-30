@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A139884C279B762400C1E90C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A139884B279B762400C1E90C /* AppDelegate.m */; };
-		A139884F279B762500C1E90C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A139884E279B762500C1E90C /* ViewController.m */; };
+		A139884F279B762500C1E90C /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A139884E279B762500C1E90C /* ViewController.mm */; };
 		A1398851279B762800C1E90C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1398850279B762800C1E90C /* Assets.xcassets */; };
 		A1398854279B762800C1E90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1398852279B762800C1E90C /* Main.storyboard */; };
 		A1398856279B762800C1E90C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1398855279B762800C1E90C /* main.m */; };
@@ -57,6 +57,8 @@
 		A1398904279B784200C1E90C /* sha1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988CB279B784200C1E90C /* sha1.cpp */; };
 		A1398905279B784200C1E90C /* arc4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988CE279B784200C1E90C /* arc4.cpp */; };
 		A1398907279B8AE300C1E90C /* debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398865279B784000C1E90C /* debug.cpp */; };
+		A1F5F86027A5F91D00D1E1B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398866279B784000C1E90C /* main.cpp */; };
+		A1F5F86127A5F99000D1E1B3 /* release.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C3279B784200C1E90C /* release.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +66,7 @@
 		A139884A279B762400C1E90C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A139884B279B762400C1E90C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A139884D279B762500C1E90C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A139884E279B762500C1E90C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A139884E279B762500C1E90C /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		A1398850279B762800C1E90C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1398853279B762800C1E90C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1398855279B762800C1E90C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -165,7 +167,7 @@
 		A13988C0279B784100C1E90C /* offsets.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = offsets.hpp; sourceTree = "<group>"; };
 		A13988C1279B784100C1E90C /* exereader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = exereader.hpp; sourceTree = "<group>"; };
 		A13988C2279B784100C1E90C /* index.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = index.hpp; sourceTree = "<group>"; };
-		A13988C3279B784200C1E90C /* release.cpp.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release.cpp.in; sourceTree = "<group>"; };
+		A13988C3279B784200C1E90C /* release.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = release.cpp; sourceTree = "<group>"; };
 		A13988C5279B784200C1E90C /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
 		A13988C6279B784200C1E90C /* hasher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hasher.cpp; sourceTree = "<group>"; };
 		A13988C7279B784200C1E90C /* adler32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adler32.cpp; sourceTree = "<group>"; };
@@ -218,7 +220,7 @@
 				A139884A279B762400C1E90C /* AppDelegate.h */,
 				A139884B279B762400C1E90C /* AppDelegate.m */,
 				A139884D279B762500C1E90C /* ViewController.h */,
-				A139884E279B762500C1E90C /* ViewController.m */,
+				A139884E279B762500C1E90C /* ViewController.mm */,
 				A1398850279B762800C1E90C /* Assets.xcassets */,
 				A1398852279B762800C1E90C /* Main.storyboard */,
 				A1398855279B762800C1E90C /* main.m */,
@@ -235,7 +237,7 @@
 				A13988C4279B784200C1E90C /* crypto */,
 				A13988C2279B784100C1E90C /* index.hpp */,
 				A13988BD279B784100C1E90C /* loader */,
-				A13988C3279B784200C1E90C /* release.cpp.in */,
+				A13988C3279B784200C1E90C /* release.cpp */,
 				A13988D4279B784200C1E90C /* release.hpp */,
 				A1398892279B784100C1E90C /* setup */,
 				A1398869279B784100C1E90C /* stream */,
@@ -488,8 +490,10 @@
 				A13988DE279B784200C1E90C /* chunk.cpp in Sources */,
 				A13988E8279B784200C1E90C /* permission.cpp in Sources */,
 				A13988EE279B784200C1E90C /* delete.cpp in Sources */,
-				A139884F279B762500C1E90C /* ViewController.m in Sources */,
+				A139884F279B762500C1E90C /* ViewController.mm in Sources */,
+				A1F5F86027A5F91D00D1E1B3 /* main.cpp in Sources */,
 				A1398900279B784200C1E90C /* hasher.cpp in Sources */,
+				A1F5F86127A5F99000D1E1B3 /* release.cpp in Sources */,
 				A13988FF279B784200C1E90C /* md5.cpp in Sources */,
 				A13988D5279B784200C1E90C /* gog.cpp in Sources */,
 				A1398901279B784200C1E90C /* adler32.cpp in Sources */,
@@ -692,6 +696,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9UY8SFDNQ8;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GENERATE_INFOPLIST_FILE = YES;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/innoextract/";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
