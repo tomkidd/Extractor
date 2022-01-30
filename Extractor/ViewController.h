@@ -11,8 +11,9 @@
 
 @interface ViewController : NSViewController
 
-@property (weak) IBOutlet NSButton *extractButton;
-@property (unsafe_unretained) IBOutlet NSTextView *textOutput;
+@property (weak) IBOutlet NSTextView *textOutput;
+@property (weak) IBOutlet NSTextField *textInputFile;
+@property (weak) IBOutlet NSTextField *textOutputDirectory;
 
 int cli_main(int argc, char * argv[]);
 
