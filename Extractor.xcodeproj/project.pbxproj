@@ -59,7 +59,38 @@
 		A1398907279B8AE300C1E90C /* debug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398865279B784000C1E90C /* debug.cpp */; };
 		A1F5F86027A5F91D00D1E1B3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1398866279B784000C1E90C /* main.cpp */; };
 		A1F5F86127A5F99000D1E1B3 /* release.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A13988C3279B784200C1E90C /* release.cpp */; };
+		A1F5F86427ADD12500D1E1B3 /* liblzma.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5F86327ADD12500D1E1B3 /* liblzma.dylib */; };
+		A1F5F86527ADD12500D1E1B3 /* liblzma.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = A1F5F86327ADD12500D1E1B3 /* liblzma.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1F5F86827ADD17D00D1E1B3 /* libboost_iostreams.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5F86727ADD17D00D1E1B3 /* libboost_iostreams.dylib */; };
+		A1F5F86927ADD17D00D1E1B3 /* libboost_iostreams.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = A1F5F86727ADD17D00D1E1B3 /* libboost_iostreams.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1F5F86E27ADD1CB00D1E1B3 /* libboost_program_options.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5F86A27ADD1CA00D1E1B3 /* libboost_program_options.dylib */; };
+		A1F5F86F27ADD1CB00D1E1B3 /* libboost_program_options.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = A1F5F86A27ADD1CA00D1E1B3 /* libboost_program_options.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1F5F87027ADD1CB00D1E1B3 /* libboost_date_time.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5F86B27ADD1CA00D1E1B3 /* libboost_date_time.dylib */; };
+		A1F5F87127ADD1CB00D1E1B3 /* libboost_date_time.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = A1F5F86B27ADD1CA00D1E1B3 /* libboost_date_time.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1F5F87227ADD1CB00D1E1B3 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5F86C27ADD1CA00D1E1B3 /* libboost_system.dylib */; };
+		A1F5F87327ADD1CB00D1E1B3 /* libboost_system.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = A1F5F86C27ADD1CA00D1E1B3 /* libboost_system.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A1F5F87427ADD1CB00D1E1B3 /* libboost_filesystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F5F86D27ADD1CA00D1E1B3 /* libboost_filesystem.dylib */; };
+		A1F5F87527ADD1CB00D1E1B3 /* libboost_filesystem.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = A1F5F86D27ADD1CA00D1E1B3 /* libboost_filesystem.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1F5F86627ADD12500D1E1B3 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A1F5F86927ADD17D00D1E1B3 /* libboost_iostreams.dylib in Embed Libraries */,
+				A1F5F86527ADD12500D1E1B3 /* liblzma.dylib in Embed Libraries */,
+				A1F5F87327ADD1CB00D1E1B3 /* libboost_system.dylib in Embed Libraries */,
+				A1F5F87527ADD1CB00D1E1B3 /* libboost_filesystem.dylib in Embed Libraries */,
+				A1F5F86F27ADD1CB00D1E1B3 /* libboost_program_options.dylib in Embed Libraries */,
+				A1F5F87127ADD1CB00D1E1B3 /* libboost_date_time.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A1398847279B762400C1E90C /* Extractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Extractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +215,12 @@
 		A13988D2279B784200C1E90C /* adler32.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = adler32.hpp; sourceTree = "<group>"; };
 		A13988D3279B784200C1E90C /* checksum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = checksum.hpp; sourceTree = "<group>"; };
 		A13988D4279B784200C1E90C /* release.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = release.hpp; sourceTree = "<group>"; };
+		A1F5F86327ADD12500D1E1B3 /* liblzma.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblzma.dylib; path = xz/lib/liblzma.dylib; sourceTree = "<group>"; };
+		A1F5F86727ADD17D00D1E1B3 /* libboost_iostreams.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_iostreams.dylib; path = boost/lib/libboost_iostreams.dylib; sourceTree = "<group>"; };
+		A1F5F86A27ADD1CA00D1E1B3 /* libboost_program_options.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_program_options.dylib; path = boost/lib/libboost_program_options.dylib; sourceTree = "<group>"; };
+		A1F5F86B27ADD1CA00D1E1B3 /* libboost_date_time.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_date_time.dylib; path = boost/lib/libboost_date_time.dylib; sourceTree = "<group>"; };
+		A1F5F86C27ADD1CA00D1E1B3 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = boost/lib/libboost_system.dylib; sourceTree = "<group>"; };
+		A1F5F86D27ADD1CA00D1E1B3 /* libboost_filesystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_filesystem.dylib; path = boost/lib/libboost_filesystem.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +228,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1F5F86827ADD17D00D1E1B3 /* libboost_iostreams.dylib in Frameworks */,
+				A1F5F86427ADD12500D1E1B3 /* liblzma.dylib in Frameworks */,
+				A1F5F87227ADD1CB00D1E1B3 /* libboost_system.dylib in Frameworks */,
+				A1F5F87427ADD1CB00D1E1B3 /* libboost_filesystem.dylib in Frameworks */,
+				A1F5F86E27ADD1CB00D1E1B3 /* libboost_program_options.dylib in Frameworks */,
+				A1F5F87027ADD1CB00D1E1B3 /* libboost_date_time.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +246,7 @@
 				A139885D279B782A00C1E90C /* innoextract */,
 				A1398849279B762400C1E90C /* Extractor */,
 				A1398848279B762400C1E90C /* Products */,
+				A1F5F86227ADD12400D1E1B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -397,6 +441,19 @@
 			path = crypto;
 			sourceTree = "<group>";
 		};
+		A1F5F86227ADD12400D1E1B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5F86B27ADD1CA00D1E1B3 /* libboost_date_time.dylib */,
+				A1F5F86D27ADD1CA00D1E1B3 /* libboost_filesystem.dylib */,
+				A1F5F86A27ADD1CA00D1E1B3 /* libboost_program_options.dylib */,
+				A1F5F86C27ADD1CA00D1E1B3 /* libboost_system.dylib */,
+				A1F5F86727ADD17D00D1E1B3 /* libboost_iostreams.dylib */,
+				A1F5F86327ADD12500D1E1B3 /* liblzma.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -407,6 +464,7 @@
 				A1398843279B762400C1E90C /* Sources */,
 				A1398844279B762400C1E90C /* Frameworks */,
 				A1398845279B762400C1E90C /* Resources */,
+				A1F5F86627ADD12500D1E1B3 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -664,17 +722,16 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xz/lib",
+					"$(PROJECT_DIR)/boost/lib",
+				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-fuse-linker-plugin",
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"$(PROJECT_DIR)/xz/lib/liblzma.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_iostreams.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_filesystem.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_date_time.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_system.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_program_options.dylib",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libiconv.tbd,
 					"$(inherited)",
 				);
@@ -706,17 +763,16 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/xz/lib",
+					"$(PROJECT_DIR)/boost/lib",
+				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-fuse-linker-plugin",
 					"-Wl,-search_paths_first",
 					"-Wl,-headerpad_max_install_names",
-					"$(PROJECT_DIR)/xz/lib/liblzma.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_iostreams.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_filesystem.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_date_time.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_system.dylib",
-					"$(PROJECT_DIR)/boost/lib/libboost_program_options.dylib",
 					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/usr/lib/libiconv.tbd,
 					"$(inherited)",
 				);
