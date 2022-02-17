@@ -28,5 +28,9 @@
     return YES;
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)app {
+    [[NSApplication sharedApplication] terminate:self];
+    return YES;
+}
 
 @end

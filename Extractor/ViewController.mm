@@ -12,8 +12,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [_textOutput setFont:[NSFont fontWithName:@"Courier New" size:10]];
+}
 
-    // Do any additional setup after loading the view.
+- (void)viewDidAppear {
+    [super viewDidAppear];
+    self.view.window.styleMask &= ~NSWindowStyleMaskResizable;
 }
 
 
