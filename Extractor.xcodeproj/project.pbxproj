@@ -714,7 +714,10 @@
 				DEVELOPMENT_TEAM = 9UY8SFDNQ8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/innoextract/";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/innoextract/",
+					"$(PROJECT_DIR)/boost/include",
+				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -755,7 +758,10 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GENERATE_INFOPLIST_FILE = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/innoextract/";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/innoextract/",
+					"$(PROJECT_DIR)/boost/include",
+				);
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
